@@ -1,0 +1,40 @@
+
+ul {
+  list-style: none;  
+  padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(204, 27, 27);
+}
+
+.wrapper-2 {
+    position: absolute;
+    z-index: 1;
+    top: 110px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(22, 102, 223);
+}
+
+.wrapper-3 {
+    position: absolute;
+    top: 215px;
+    left: 240px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 13);
+}
